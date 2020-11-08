@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.textBlock {
+    text-align: left;
+}
+
+/*=============================== header =======================================*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+}
+
+header div, nav {   /* обобщиl стиль с НАВОМ*/
+    display: flex;
+    align-items: center;
+    margin: 0 24px;
+}
+
+header img {
+    height: 32px;
+    width: auto;
+}
+
+#logoDiv p {
+    color: grey;
+    font-family: "Arial", sans-serif;
+}
+
+#logoDiv span {
+    font-weight: bold;
+    color: black;
+}
+
+nav a {
+    padding: 0 16px;
+}
+/*=============================== Section Learn New Something =======================================*/
+#learnNew {
+    width: 100vw;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+}
+
+#learnNew img {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+
+#learnNew .textBlock {
+    /* width: 25%; */
+    color: #4f4f4f;
+}
+
+#learnNew h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#learnNew .buttonDiv {
+    width: 100%;
+    background-color: #4f4f4f;
+    text-align: center;
+    color: white;
+}
+
+#lorem {
+    margin: 24px auto 32px  auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.buttonDiv p {
+    padding: 8px;
+}
+/*=============================== Section Keep Practicing =======================================*/
+#keepPracticing {
+    width: 100vw;
+    display: flex;
+}
+
+#bigImgPlusTextBlock {
+    border: 3px solid red;
+    width: 60vw;
+}
+
+#readingGuy {
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+    padding: 32px 24px 32px 24px;
+}
+
+#threeVertBlocks {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.smallImgPlusText {
+    display: flex;
+}
+
+#keepPracticing .infoText {
+    padding: 30px;
+}
+
+/*=============================== Section Start Learning =======================================*/
+/*=============================== Section Thesis exhibit =======================================*/
+/*=============================== footer =======================================*/
