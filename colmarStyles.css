@@ -43,6 +43,8 @@ header img {
 
 nav a {
     padding: 0 16px;
+    text-decoration: none;
+    color: black;
 }
 /*=============================== Section Learn New Something =======================================*/
 #learnNew {
@@ -52,14 +54,20 @@ nav a {
     align-items: center;
 }
 
+#bannerBox {
+    width: 60vw;
+}
+
 #learnNew img {
-    width: 60%;
-    height: auto;
-    margin: 32px 24px;
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+    padding: 32px 24px 32px 24px;
 }
 
 #learnNew .textBlock {
     /* width: 25%; */
+    margin: 24px;
     color: #4f4f4f;
 }
 
@@ -91,8 +99,13 @@ nav a {
 }
 
 #bigImgPlusTextBlock {
-    border: 3px solid red;
+    border-right: 1px solid gainsboro;
     width: 60vw;
+    font-size: 1.3rem;
+}
+
+#bigImgPlusTextBlock .infoText {
+    padding: 0 24px 0 24px;
 }
 
 #readingGuy {
@@ -100,6 +113,18 @@ nav a {
     max-width: 100%;
     height:auto;
     padding: 32px 24px 32px 24px;
+}
+
+#bigImgPlusTextBlock h2 {
+    margin-top:0;
+    margin-bottom:24px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#sign {
+    margin-bottom:32px;
+    margin-top: 32px;
 }
 
 #threeVertBlocks {
@@ -110,12 +135,43 @@ nav a {
 
 .smallImgPlusText {
     display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid gainsboro;
 }
 
-#keepPracticing .infoText {
-    padding: 30px;
+#small_1 {
+    padding-top:32px;
 }
 
+.smallImgPlusText .infoText {
+    padding-left: 24px;
+}
+
+.smallImgPlusText img {
+    width: 38.25%;
+    height: auto;
+}
+
+.smallImgPlusText p {
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size:1.3rem;
+}
+
+.smallImgPlusText h3 {
+    font-size:1.7rem;
+}
+
+.smallImgPlusText a {
+    font-size:1.3rem;
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+#small_3 {
+    background-color: gainsboro;
+}
 /*=============================== Section Start Learning =======================================*/
 /*=============================== Section Thesis exhibit =======================================*/
 /*=============================== footer =======================================*/
