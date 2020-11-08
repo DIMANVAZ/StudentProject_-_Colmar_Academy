@@ -27,13 +27,14 @@ header div, nav {   /* обобщиl стиль с НАВОМ*/
 }
 
 header img {
-    height: 32px;
+    height: 38px;
     width: auto;
 }
 
 #logoDiv p {
     color: grey;
     font-family: "Arial", sans-serif;
+    font-size: 1.5rem;
 }
 
 #logoDiv span {
@@ -45,6 +46,7 @@ nav a {
     padding: 0 16px;
     text-decoration: none;
     color: black;
+    font-size: 1.3rem;
 }
 /*=============================== Section Learn New Something =======================================*/
 #learnNew {
@@ -101,7 +103,7 @@ nav a {
 #bigImgPlusTextBlock {
     border-right: 1px solid gainsboro;
     width: 60vw;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #bigImgPlusTextBlock .infoText {
@@ -144,6 +146,10 @@ nav a {
     padding-top:32px;
 }
 
+#small_3 {
+    border-bottom: 1px solid white;
+}
+
 .smallImgPlusText .infoText {
     padding-left: 24px;
 }
@@ -156,7 +162,7 @@ nav a {
 .smallImgPlusText p {
     padding-top:8px;
     padding-bottom:8px;
-    font-size:1.3rem;
+    font-size:1.2rem;
 }
 
 .smallImgPlusText h3 {
@@ -164,7 +170,7 @@ nav a {
 }
 
 .smallImgPlusText a {
-    font-size:1.3rem;
+    font-size:1.2rem;
     color: deepskyblue;
     text-decoration: none;
 }
@@ -173,5 +179,30 @@ nav a {
     background-color: gainsboro;
 }
 /*=============================== Section Start Learning =======================================*/
+#startLearning {
+    width: 100vw;
+    background-color:gainsboro;
+}
+
+#startLearning h2 {
+    text-align:center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding:32px 0;
+}
+
+#gridSixBox {
+    margin: 0 72px 32px 72px;
+    width: calc(100vw - 72px*2);
+    border: 1px solid red;
+    display:grid;
+    grid-gap:32px;
+    grid-template: 1fr 1fr /1fr 1fr 1fr;
+}
+
+.gridCell {
+    border: 1px solid green;
+}
+
 /*=============================== Section Thesis exhibit =======================================*/
 /*=============================== footer =======================================*/

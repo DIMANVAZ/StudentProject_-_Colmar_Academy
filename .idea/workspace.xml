@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a51fac7-1c1f-4fc2-b484-67be51357f42" name="Default Changelist" comment="second commit at home">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="6a51fac7-1c1f-4fc2-b484-67be51357f42" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colmar-academy-spec — копия.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/colmarStyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/colmarStyles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -57,8 +55,17 @@
       <option name="presentableId" value="Default" />
       <updated>1604814975287</updated>
       <workItem from="1604814976735" duration="10405000" />
-      <workItem from="1604856530210" duration="6128000" />
+      <workItem from="1604856530210" duration="8863000" />
+      <workItem from="1604867006076" duration="313000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit at home">
+      <created>1604864133738</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604864133738</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
