@@ -182,6 +182,7 @@ nav a {
 #startLearning {
     width: 100vw;
     background-color:gainsboro;
+    padding-bottom: 32px;
 }
 
 #startLearning h2 {
@@ -192,7 +193,7 @@ nav a {
 }
 
 #gridSixBox {
-    margin: 0 72px 32px 72px;
+    margin: 0 72px 0 72px;
     width: calc(100vw - 72px*2);
     border: 1px solid red;
     display:grid;
@@ -201,8 +202,116 @@ nav a {
 }
 
 .gridCell {
+    display: flex;
+    flex-direction: column;
     border: 1px solid green;
+    text-align: left;
+    background-color: white;
 }
 
+#startLearning h3{
+    font-size:1.7rem;
+}
+
+#startLearning p {
+    font-size:1.2rem;
+    line-height: 1.4;
+}
+
+.gridCell img {
+    width:100%;
+    height:auto;
+}
+
+#gridSixBox .textBlock {
+    padding: 16px 16px 24px 16px;
+}
+
+.COURCES {
+    margin: 8px auto;
+}
 /*=============================== Section Thesis exhibit =======================================*/
+#thesisExhibit {
+    width: 100vw;
+    background-color:white;
+}
+
+#thesisExhibit h2 {
+    text-align:center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top:32px;
+}
+
+#bigVideoPlusTextBlock h2 {
+    text-align:left;
+}
+
+#thesisExhibit #mainContainer {
+    display: flex;
+}
+
+#bigVideoPlusTextBlock {
+    width: 60vw;
+    font-size: 1.2rem;
+}
+
+#bigVideoPlusTextBlock .infoText {
+    padding: 0 24px 0 24px;
+}
+
+#videoFile {
+    width: 100%;
+    max-width: 100%;
+    height:auto;
+    padding: 32px 24px 0 24px;
+}
+
+#bigVideoPlusTextBlock h2 {
+    margin-top:0;
+    margin-bottom:24px;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+#twoVertBlocks {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.smallImgPlusText {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+#small_4 {
+    margin-top:32px;
+    background-color: gainsboro;
+}
+
+#small_5 {
+    border: none;
+}
+
+.smallImgPlusText .infoText {
+    padding-left: 24px;
+}
+
+.smallImgPlusText img {
+    width: 38.25%;
+    height: auto;
+}
+
+.smallImgPlusText p {
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size:1.2rem;
+}
+
+.smallImgPlusText h3 {
+    font-size:1.7rem;
+}
+
 /*=============================== footer =======================================*/
