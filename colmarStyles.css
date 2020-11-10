@@ -149,6 +149,7 @@ nav a {
 
 #small_3 {
     border-bottom: 1px solid white;
+    background-color: gainsboro;
 }
 
 .smallImgPlusText .infoText {
@@ -176,9 +177,6 @@ nav a {
     text-decoration: none;
 }
 
-#small_3 {
-    background-color: gainsboro;
-}
 /*=============================== Section Start Learning =======================================*/
 #startLearning {
     width: 100vw;
@@ -345,6 +343,17 @@ footer span {
     display:none;
 }
 
+#videoFileMobile {
+    display:none;
+}
+
+#specialGuestLecture {
+    display:none;
+}
+
+.mobileImages {
+    display:none;
+}
 
 
 }
@@ -383,6 +392,10 @@ footer span {
         padding:0 24px 0 24px;
     }
 
+    #mobileHeaderNav a {
+        padding:0;
+    }
+
     /*--------------------------------mobile learnNew-------------*/
     #learnNew {
         flex-direction: column;
@@ -413,24 +426,61 @@ footer span {
         display: none;
     }
 
+    .desktopImages {
+        display: none;
+    }
+
     #threeVertBlocks{
         width: 100%;
         width:100vw;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin:0;
+        padding:0;
     }
 
-    .smallImgPlusText {
+    .smallImgPlusText { /*-------------------------------------------------------*/
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
         width:100%;
-        margin: 16px 16px 64px 16px;
+        padding-top:16px;
+        padding-right:16px;
+        padding-bottom:32px;
+        padding-left:16px;
+    }
+
+    #small_1 {
+        padding-top:16px;
+    }
+
+    #small_3 {
+        background-color: white;
+    }
+
+    #ourGuestLecture {
+        display:none;
+    }
+
+    .smallImgPlusText img {
+        width: 100%;
+        margin-bottom: 32px;
     }
 
     .smallImgPlusText .infoText {
         margin:0;
         padding:0;
+        padding-left:16px;
+        padding-right:24px;
+    }
+
+    .smallImgPlusText p, .smallImgPlusText a{
+        font-size:1rem;
+    }
+
+    .smallImgPlusText h3 {
+        font-size:1.4rem;
     }
 
     /*--------------------------mobile start learning -----------------------*/
@@ -464,7 +514,40 @@ footer span {
 
     /*----------------thesis exhibit mobile-----------*/
 
+    #thesisExhibit {
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    #thesisExhibitMobileHeader {
+        padding-bottom:16px;
+    }
+
     #thesisExhibitDesktopHeader {
+        display:none;
+    }
+
+    #thesisExhibit #mainContainer {
+        display:none;
+    }
+
+    #videoFileMobile {
+        width: 100%;
+        height:auto;
+        margin-bottom:24px;
+    }
+
+    /*----------------footer mobile-------------*/
+
+    footer {
+        border: none;
+        padding-top:16px;
+        padding-bottom:16px;
+        padding-left:16px;
+    }
+
+    #termsHideEmInMobile {
         display:none;
     }
 

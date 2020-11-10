@@ -23,9 +23,9 @@
 
     <nav id="mobileHeaderNav">
         <img src="./images/ic-logo.svg" alt="logoColmar">
-        <img src="./images/ic-on-campus.svg" alt="oncampus">
-        <img src="./images/ic-online.svg" alt="online">
-        <img src="./images/ic-login.svg" alt="login">
+        <a><img src="./images/ic-on-campus.svg" alt="oncampus"></a>
+        <a><img src="./images/ic-online.svg" alt="online"></a>
+        <a><img src="./images/ic-login.svg" alt="login"></a>
     </nav>
 
 </header>
@@ -55,7 +55,8 @@
         </div>
         <div id="threeVertBlocks">
             <div id="small_1" class="smallImgPlusText">
-                <img src="./images/information-orientation.jpg" alt="info-orientation">
+                <img class="desktopImages" src="./images/information-orientation.jpg" alt="info-orientation">
+                <img class="mobileImages" src="./images/information-orientation-mobile.jpg" alt="info-orientation">
                 <div class="infoText">
                     <h3>Orientation date</h3>
                     <p>Tue 10/11 and Wed 10/12: 8am-3pm</p>
@@ -63,7 +64,8 @@
                 </div>
             </div>
             <div id="small_2" class="smallImgPlusText">
-                <img src="./images/information-campus.jpg" alt="info-campus">
+                <img class="desktopImages" src="./images/information-campus.jpg" alt="info-campus">
+                <img class="mobileImages" src="./images/information-campus-mobile.jpg" alt="info-campus">
                 <div class="infoText">
                     <h3>Our campus</h3>
                     <p>Find which campus is close by you</p>
@@ -71,9 +73,11 @@
                 </div>
             </div>
             <div id="small_3" class="smallImgPlusText">
-                <img src="./images/information-guest-lecture.jpg" alt="lecturers portrait">
+                <img class="desktopImages" src="./images/information-guest-lecture.jpg" alt="lecturers portrait">
+                <img class="mobileImages" src="./images/information-guest-lecture-mobile.jpg" alt="lecturers portrait">
                 <div class="infoText">
-                    <h3>Our guest lecture</h3>
+                    <h3 id="ourGuestLecture">Our guest lecture</h3>
+                    <h3 id="specialGuestLecture">Special guest lecture</h3>
                     <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                     <a href="#">Read more</a>
                 </div>
@@ -134,12 +138,12 @@
         </div>
     </div>
     <div id="flexSixBoxMobile">
-        <p>Software engineering</p>
-        <p>Computer art</p>
-        <p>Design</p>
-        <p>Data</p>
-        <p>Business</p>
-        <p>Marketing</p>
+        <a><p>Software engineering</p></a>
+        <a> <p>Computer art</p></a>
+            <a><p>Design</p></a>
+                <a> <p>Data</p></a>
+                    <a> <p>Business</p></a>
+                        <a><p>Marketing</p></a>
     </div>
 </section>
 <!---------------------section 4 - Thesis Exhibit    -------------------------------->
@@ -148,7 +152,9 @@
     <h2 id="thesisExhibitMobileHeader">Thesis Exhibits</h2>
     <div id="mainContainer">
         <div id="bigVideoPlusTextBlock">
-            <video id="videoFile" src="./videos/thesis.mp4" alt="readingGuy">VideoUnav</video>
+            <video id="videoFile">VideoUnav
+                <source src="./videos/thesis.mp4" type="video/mp4">
+            </video>
             <div class="infoText">
                 <h2>Reimagine urban</h2>
                 <p>"Curabitur ligula sapien, pulvinar a vestibulum quis, facilisis vel sapien.
@@ -174,13 +180,16 @@
             </div>
         </div>
     </div>
-    <video id="videoFileMobile" src="./videos/thesis.mp4" alt="readingGuy">VideoUnav</video>
+    <video id="videoFileMobile" preload="auto" autoplay loop muted="muted">
+        VideoUnav
+        <source src="./videos/thesis.mp4" type="video/mp4">
+    </video>
 
 </section>
 <!--------------------- footer -------------------------------->
 <footer>
     <p>©2016 Colmar Academy. All rights reserved</p>
-    <p>Terms <span>Privacy</span></p>
+    <p id="termsHideEmInMobile">Terms <span>Privacy</span></p>
 </footer>
 <!----------------------------------------------------->
 </body>
