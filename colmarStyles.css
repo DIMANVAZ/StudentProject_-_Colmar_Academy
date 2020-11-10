@@ -5,8 +5,9 @@
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /*Calibri*/
 }
+
 
 .textBlock {
     text-align: left;
@@ -195,7 +196,6 @@ nav a {
 #gridSixBox {
     margin: 0 72px 0 72px;
     width: calc(100vw - 72px*2);
-    border: 1px solid red;
     display:grid;
     grid-gap:32px;
     grid-template: 1fr 1fr /1fr 1fr 1fr;
@@ -204,7 +204,6 @@ nav a {
 .gridCell {
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
     text-align: left;
     background-color: white;
 }
@@ -243,10 +242,6 @@ nav a {
     padding-top:32px;
 }
 
-#bigVideoPlusTextBlock h2 {
-    text-align:left;
-}
-
 #thesisExhibit #mainContainer {
     display: flex;
 }
@@ -268,11 +263,17 @@ nav a {
 }
 
 #bigVideoPlusTextBlock h2 {
+    text-align:left;
     margin-top:0;
-    margin-bottom:24px;
+    margin-bottom:8px;
     font-weight: bold;
     font-size: 2.5rem;
 }
+
+#bigVideoPlusTextBlock p {
+    margin-bottom: 32px;
+}
+
 
 #twoVertBlocks {
     display: flex;
@@ -315,3 +316,162 @@ nav a {
 }
 
 /*=============================== footer =======================================*/
+
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding:16px 24px 32px 24px;
+    border-top: 1px solid darkgrey;
+
+}
+
+footer span {
+    padding-left: 8px;
+}
+
+/*===============111====================== DESKTOP ===============================111=================*/
+@media only screen and (min-width:481px) {
+
+#mobileHeaderNav {
+    display:none;
+}
+
+#flexSixBoxMobile {
+    display:none;
+}
+
+#thesisExhibitMobileHeader {
+    display:none;
+}
+
+
+
+}
+
+/*===============222====================== MOBILE ===============================222=================*/
+
+@media only screen and (max-width: 480px) {
+
+    html {
+        width: 100%;
+        width: 100vw;
+        color: #4b4646;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*----------------------------mobile header----------------*/
+
+    #logoDiv, #laptopHeaderNav {
+        display:none;
+    }
+
+    header {
+        width: 100vw;
+    }
+
+    #mobileHeaderNav {
+        width:100%;
+        width:100vw;
+        display: flex;
+        justify-content:space-between;
+        margin:0;
+        padding:0 24px 0 24px;
+    }
+
+    /*--------------------------------mobile learnNew-------------*/
+    #learnNew {
+        flex-direction: column;
+    }
+
+    #bannerBox, #bannerBox img {
+        margin:0;
+        padding:0;
+        width:100%;
+        width:100vw;
+    }
+
+    #learnNew .textBlock {
+        margin: 32px 16px 32px 16px;
+    }
+
+    #learnNew h1 {
+        font-size: 2rem;
+    }
+
+    /*------------------------------mobile keep practicing------------------------*/
+    #keepPracticing {
+        width: 100%;
+        width:100vw;
+    }
+
+    #bigImgPlusTextBlock {
+        display: none;
+    }
+
+    #threeVertBlocks{
+        width: 100%;
+        width:100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .smallImgPlusText {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        margin: 16px 16px 64px 16px;
+    }
+
+    .smallImgPlusText .infoText {
+        margin:0;
+        padding:0;
+    }
+
+    /*--------------------------mobile start learning -----------------------*/
+    #startLearning {
+        background-color: white;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid darkgrey;
+        border-top: 1px solid darkgrey;
+    }
+
+    #gridSixBox {
+        display: none;
+    }
+
+    #flexSixBoxMobile p {
+
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-top: 16px;
+        padding-right: auto;
+        padding-bottom:24px;
+        padding-left:16px;
+        background-color: lightgray;
+        margin-bottom:8px;
+        margin-left:16px;
+        margin-right:16px;
+
+    }
+
+    /*----------------thesis exhibit mobile-----------*/
+
+    #thesisExhibitDesktopHeader {
+        display:none;
+    }
+
+}
+
+
+
+
+
+

@@ -15,19 +15,25 @@
         <p><span>COLMAR</span>ACADEMY</p>
     </div>
 
-    <nav>
+    <nav id="laptopHeaderNav">
         <a href="#">On campus</a>
         <a href="#">Online for companies</a>
         <a href="#">Sign in</a>
+    </nav>
+
+    <nav id="mobileHeaderNav">
+        <img src="./images/ic-logo.svg" alt="logoColmar">
+        <img src="./images/ic-on-campus.svg" alt="oncampus">
+        <img src="./images/ic-online.svg" alt="online">
+        <img src="./images/ic-login.svg" alt="login">
     </nav>
 
 </header>
 <!---------------------section 1 - Learn New everyday-------------------------------->
 <section id="learnNew">
     <div id="bannerBox">
-    <img src="./images/banner.jpg" alt="Banner">
+        <img src="./images/banner.jpg" alt="Banner">
     </div>
-
     <div class="textBlock">
         <h1>Learn something <br>new everyday</h1>
         <p id="lorem">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
@@ -127,10 +133,19 @@
             </div>
         </div>
     </div>
+    <div id="flexSixBoxMobile">
+        <p>Software engineering</p>
+        <p>Computer art</p>
+        <p>Design</p>
+        <p>Data</p>
+        <p>Business</p>
+        <p>Marketing</p>
+    </div>
 </section>
 <!---------------------section 4 - Thesis Exhibit    -------------------------------->
 <section id="thesisExhibit">
-    <h2>Thesis Exhibit</h2>
+    <h2 id="thesisExhibitDesktopHeader">Thesis Exhibit</h2>
+    <h2 id="thesisExhibitMobileHeader">Thesis Exhibits</h2>
     <div id="mainContainer">
         <div id="bigVideoPlusTextBlock">
             <video id="videoFile" src="./videos/thesis.mp4" alt="readingGuy">VideoUnav</video>
@@ -159,11 +174,13 @@
             </div>
         </div>
     </div>
+    <video id="videoFileMobile" src="./videos/thesis.mp4" alt="readingGuy">VideoUnav</video>
 
 </section>
 <!--------------------- footer -------------------------------->
 <footer>
-
+    <p>©2016 Colmar Academy. All rights reserved</p>
+    <p>Terms <span>Privacy</span></p>
 </footer>
 <!----------------------------------------------------->
 </body>
